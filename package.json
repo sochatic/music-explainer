@@ -1,5 +1,5 @@
 {
-  "name": "blueimp-md5",
+  "name": "music-explainer",
   "version": "2.19.0",
   "title": "JavaScript MD5",
   "description": "JavaScript MD5 implementation. Compatible with server-side environments like Node.js, module loaders like RequireJS, Browserify or webpack and all web browsers.",
@@ -7,7 +7,7 @@
     "javascript",
     "md5"
   ],
-  "homepage": "https://github.com/blueimp/JavaScript-MD5",
+  "homepage": "https://github.com/sochatic/music-explainer.git",
   "author": {
     "name": "Sebastian Tschan",
     "url": "https://blueimp.net"
@@ -20,7 +20,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git://github.com/blueimp/JavaScript-MD5.git"
+    "url": "https://github.com/sochatic/music-explainer.git"
   },
   "license": "MIT",
   "devDependencies": {
@@ -70,5 +70,8 @@
     "js/*.js",
     "js/*.js.map"
   ],
-  "main": "js/md5.js"
+  "main": "js/md5.js",
+  "dependencies": {
+    "uuid": "^9.0.1"
+  }
 }
